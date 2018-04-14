@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"
+            android:overScrollMode="never" />
+
+
+        <EditText
+            android:id="@+id/duraction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="6dp" />
+
+        <RadioGroup
+            android:id="@+id/choose_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <com.androidmediacode.MyRadioButton
+                android:id="@+id/type_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="图片" />
+
+            <com.androidmediacode.MyRadioButton
+                android:id="@+id/type_video"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="视频" />
+
+        </RadioGroup>
+
+        <CheckBox
+            android:id="@+id/one_min"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="第一个图片显示一秒" />
+
+        <RadioGroup
+            android:id="@+id/y_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <com.androidmediacode.MyRadioButton
+                android:id="@+id/top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="顶部" />
+
+            <com.androidmediacode.MyRadioButton
+                android:id="@+id/y_center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="居中" />
+
+            <com.androidmediacode.MyRadioButton
+                android:id="@+id/bottom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="底部" />
+
+        </RadioGroup>
+
+        <!--<RadioGroup-->
+            <!--android:id="@+id/x_loaction"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<RadioButton-->
+                <!--android:id="@+id/left"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:checked="true"-->
+                <!--android:text="水平居左" />-->
+
+
+            <!--<RadioButton-->
+                <!--android:id="@+id/center"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="水平居中" />-->
+
+            <!--<RadioButton-->
+                <!--android:id="@+id/right"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="水平居右" />-->
+
+        <!--</RadioGroup>-->
+
+        <RadioGroup
+            android:id="@+id/video_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="白色背景" />
+
+            <RadioButton
+                android:id="@+id/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="黑色背景" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="开始" />
+    </LinearLayout>
+</ScrollView>

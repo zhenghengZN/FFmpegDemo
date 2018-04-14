@@ -1,0 +1,30 @@
+[{
+  "type": "Cell",
+  "objects": [
+    {
+      "title":"合成图片视频",
+      "iconFontCode":"&#xe734;",
+      "picUrl": "http://ac-egDFgpKJ.clouddn.com/c7a93b81213187e02d9a.jpg",
+      "url": "/redirectAction?action=TaobaoLogin"
+    },
+    {
+      "title":"合成文字图片",
+      "iconFontCode":"&#xe7b7;",
+      "picUrl": "http://ac-egDFgpKJ.clouddn.com/c7a93b81213187e02d9a.jpg",
+      "url": "/redirectAppPage?page=CreateTextImage&pageTitle=合成文字图片"
+    },
+    {
+      "title":"混合图片视频",
+      "iconFontCode":"&#xe7a5;",
+      "picUrl": "http://ac-egDFgpKJ.clouddn.com/c7a93b81213187e02d9a.jpg",
+      "url": "https://h5.m.taobao.com/mlapp/cart.html"
+    },
+    {
+      "title":"设置视频背景颜色",
+      "iconFontCode":"&#xe7cd;",
+      "picUrl": "http://ac-egDFgpKJ.clouddn.com/c7a93b81213187e02d9a.jpg",
+      "url": "/redirectAppPage?page=BrowseRecord&pageTitle=浏览记录"
+    }
+  ]
+}
+]
